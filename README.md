@@ -25,7 +25,7 @@ but there is no official documentation about it.
 v0.8 | usage | v1.0 | note
 --- | --- | --- | ---
 DRONE_DEBUG | enable server debug mode | [DRONE_LOGS_DEBUG](https://docs.drone.io/reference/server/drone-logs-debug/)
-DRONE_SERVER_HOST,DRONE_HOST | server fully qualified url (<scheme>://<host>) | [DRONE_SERVER_HOST](https://docs.drone.io/reference/server/drone-server-host/)
+DRONE_SERVER_HOST,DRONE_HOST | server fully qualified url (`<scheme>://<host>`) | [DRONE_SERVER_HOST](https://docs.drone.io/reference/server/drone-server-host/)
 DRONE_SERVER_ADDR | server address | [DRONE_SERVER_PORT](https://docs.drone.io/reference/server/drone-server-port/), [DRONE_SERVER_PROTO](https://docs.drone.io/reference/server/drone-server-proto/)
 DRONE_SERVER_CERT | server ssl cert path | [DRONE_TLS_CERT](https://docs.drone.io/reference/server/drone-tls-cert/) | https://docs.drone.io/administration/server/ssl/
 DRONE_SERVER_KEY | server ssl key path | [DRONE_TLS_KEY](https://docs.drone.io/reference/server/drone-tls-key/) | https://docs.drone.io/administration/server/ssl/
