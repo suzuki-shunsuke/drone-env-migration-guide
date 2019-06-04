@@ -20,6 +20,8 @@ but there is no official documentation about it.
   * 0.8
     * https://github.com/drone/drone/blob/v0.8.10/cmd/drone-agent/main.go
 
+## drone-server
+
 v0.8 | usage | v1.0 | note
 --- | --- | --- | ---
 DRONE_DEBUG | enable server debug mode | [DRONE_LOGS_DEBUG](https://docs.drone.io/reference/server/drone-logs-debug/)
@@ -105,3 +107,21 @@ DRONE_CODING_GIT_USERNAME | coding machine user username |
 DRONE_CODING_GIT_PASSWORD | coding machine user password |
 DRONE_CODING_SKIP_VERIFY | coding skip ssl verification |
 DRONE_KEEPALIVE_MIN_TIME | server-side enforcement policy on the minimum amount of time a client should wait before sending a keepalive ping. |
+
+## drone-agent
+
+v0.8 | usage | v1.0 | note
+--- | --- | --- | ---
+DRONE_SERVER | drone server address | [DRONE_RPC_SERVER](https://docs.drone.io/reference/agent/drone-rpc-server/)
+DRONE_USERNAME | drone auth username |
+DRONE_PASSWORD,DRONE_SECRET | server-agent shared password | [DRONE_RPC_SECRET](https://docs.drone.io/reference/agent/drone-rpc-secret/)
+DRONE_DEBUG | enable agent debug mode | [DRONE_LOGS_DEBUG](https://docs.drone.io/reference/agent/drone-logs-debug/)
+DRONE_DEBUG_PRETTY | enable pretty-printed debug output | [DRONE_LOGS_PRETTY](https://docs.drone.io/reference/agent/drone-logs-pretty/)
+DRONE_DEBUG_NOCOLOR | disable colored debug output | [DRONE_LOGS_NOCOLOR](https://docs.drone.io/reference/agent/drone-logs-nocolor/)
+DRONE_HOSTNAME,HOSTNAME | agent hostname |
+DRONE_PLATFORM | restrict builds by platform conditions |
+DRONE_FILTER | filter expression to restrict builds by label |
+DRONE_MAX_PROCS | agent parallel builds | [DRONE_RUNNER_CAPACITY](https://docs.drone.io/reference/agent/drone-runner-capacity/)
+DRONE_HEALTHCHECK | enable healthcheck endpoint |
+DRONE_KEEPALIVE_TIME | after a duration of this time of no activity, the agent pings the server to check if the transport is still alive |
+DRONE_KEEPALIVE_TIMEOUT | after pinging for a keepalive check, the agent waits for a duration of this time before closing the connection if no activity |
