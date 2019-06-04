@@ -35,11 +35,11 @@ DRONE_ORGS | list of approved organizations | [DRONE_USER_FILTER](https://docs.d
 DRONE_OPEN | enable open user registration | |
 DRONE_REPO_CONFIG | file path for the drone config |
 DRONE_SESSION_EXPIRES | session expiration time |
-DRONE_ESCALATE | images to run in privileged mode |
+DRONE_ESCALATE | images to run in privileged mode | [DRONE_RUNNER_PRIVILEGED_IMAGES](https://docs.drone.io/reference/agent/drone-runner-privileged-images/)
 DRONE_VOLUME |  |
 DRONE_NETWORK |  |
 DRONE_AGENT_SECRET,DRONE_SECRET | server-agent shared password | [DRONE_RPC_SECRET](https://docs.drone.io/reference/server/drone-rpc-secret/)
-DRONE_SECRET_ENDPOINT | secret plugin endpoint | |
+DRONE_SECRET_ENDPOINT | secret plugin endpoint | | https://docs.drone.io/extend/secrets/
 DRONE_REGISTRY_ENDPOINT | registry plugin endpoint | |
 DRONE_GATEKEEPER_ENDPOINT | gated build endpoint | |
 DRONE_DATABASE_DRIVER,DATABASE_DRIVER | database driver | [DRONE_DATABASE_DRIVER](https://docs.drone.io/reference/server/drone-database-driver/)
