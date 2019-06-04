@@ -45,12 +45,12 @@ DRONE_GATEKEEPER_ENDPOINT | gated build endpoint | |
 DRONE_DATABASE_DRIVER,DATABASE_DRIVER | database driver | [DRONE_DATABASE_DRIVER](https://docs.drone.io/reference/server/drone-database-driver/)
 DRONE_DATABASE_DATASOURCE,DATABASE_CONFIG | database driver configuration string | [DRONE_DATABASE_DATASOURCE](https://docs.drone.io/reference/server/drone-database-datasource/)
 DRONE_PROMETHEUS_AUTH_TOKEN | token to secure prometheus metrics endpoint |
-DRONE_LIMIT_MEM_SWAP | maximum swappable memory allowed in bytes |
-DRONE_LIMIT_MEM | maximum memory allowed in bytes |
-DRONE_LIMIT_SHM_SIZE | docker compose /dev/shm allowed in bytes |
-DRONE_LIMIT_CPU_QUOTA | impose a cpu quota |
-DRONE_LIMIT_CPU_SHARES | change the cpu shares |
-DRONE_LIMIT_CPU_SET | set the cpus allowed to execute containers |
+DRONE_LIMIT_MEM_SWAP | maximum swappable memory allowed in bytes | DRONE_LIMIT_MEM_SWAP
+DRONE_LIMIT_MEM | maximum memory allowed in bytes | DRONE_LIMIT_MEM
+DRONE_LIMIT_SHM_SIZE | docker compose /dev/shm allowed in bytes | DRONE_LIMIT_SHM_SIZE
+DRONE_LIMIT_CPU_QUOTA | impose a cpu quota | DRONE_LIMIT_CPU_QUOTA
+DRONE_LIMIT_CPU_SHARES | change the cpu shares | DRONE_LIMIT_CPU_SHARES
+DRONE_LIMIT_CPU_SET | set the cpus allowed to execute containers | DRONE_LIMIT_CPU_SET
 DRONE_GITHUB | github driver is enabled |
 DRONE_GITHUB_URL | github server address | [DRONE_GITHUB_SERVER](https://docs.drone.io/reference/server/drone-github-server/)
 DRONE_GITHUB_CONTEXT | github status context |
