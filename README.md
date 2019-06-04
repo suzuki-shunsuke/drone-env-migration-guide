@@ -69,12 +69,12 @@ DRONE_GOGS_GIT_PASSWORD | gogs service account password |
 DRONE_GOGS_PRIVATE_MODE | gogs private mode enabled |
 DRONE_GOGS_SKIP_VERIFY | gogs skip ssl verification |
 DRONE_GITEA | gitea driver is enabled |
-DRONE_GITEA_URL | gitea server address |
-DRONE_GITEA_CONTEXT | gitea status context |
+DRONE_GITEA_URL | gitea server address | DRONE_GITEA_SERVER | DRONE_GITEA_CLIENT_ID, DRONE_GITEA_CLIENT_SECRET
+DRONE_GITEA_CONTEXT | gitea status context | 
 DRONE_GITEA_GIT_USERNAME | gitea service account username |
 DRONE_GITEA_GIT_PASSWORD | gitea service account password |
 DRONE_GITEA_PRIVATE_MODE | gitea private mode enabled |
-DRONE_GITEA_SKIP_VERIFY | gitea skip ssl verification |
+DRONE_GITEA_SKIP_VERIFY | gitea skip ssl verification | DRONE_GITEA_SKIP_VERIFY
 DRONE_BITBUCKET | bitbucket driver is enabled |
 DRONE_BITBUCKET_CLIENT | bitbucket oauth2 client id | [DRONE_BITBUCKET_CLIENT_ID](https://docs.drone.io/reference/server/drone-bitbucket-client-id/)
 DRONE_BITBUCKET_SECRET | bitbucket oauth2 client secret | [DRONE_BITBUCKET_CLIENT_SECRET](https://docs.drone.io/reference/server/drone-bitbucket-client-secret/)
@@ -89,9 +89,9 @@ DRONE_GITLAB_PRIVATE_MODE | gitlab is running in private mode |
 DRONE_GITLAB_V3_API | gitlab is running the v3 api |
 DRONE_STASH | stash driver is enabled |
 DRONE_STASH_URL | stash server address | [DRONE_STASH_SERVER](https://docs.drone.io/reference/server/drone-stash-server/)
-DRONE_STASH_CONSUMER_KEY | stash oauth1 consumer key | 
-DRONE_STASH_CONSUMER_RSA | stash oauth1 private key file |
-DRONE_STASH_CONSUMER_RSA_STRING | stash oauth1 private key string |
+DRONE_STASH_CONSUMER_KEY | stash oauth1 consumer key | DRONE_STASH_CONSUMER_KEY | DRONE_STASH_CONSUMER_SECRET, 
+DRONE_STASH_CONSUMER_RSA | stash oauth1 private key file | 
+DRONE_STASH_CONSUMER_RSA_STRING | stash oauth1 private key string | DRONE_STASH_PRIVATE_KEY
 DRONE_STASH_GIT_USERNAME | stash service account username |
 DRONE_STASH_GIT_PASSWORD | stash service account password |
 DRONE_STASH_SKIP_VERIFY | stash skip ssl verification | [DRONE_STASH_SKIP_VERIFY](https://docs.drone.io/reference/server/drone-stash-skip-verify/)
