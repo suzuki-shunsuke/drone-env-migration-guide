@@ -61,22 +61,22 @@ DRONE_GITHUB_SECRET | github oauth2 client secret | [DRONE_GITHUB_CLIENT_SECRET]
 DRONE_GITHUB_SCOPE | github oauth scope | [DRONE_GITHUB_SCOPE](https://docs.drone.io/reference/server/drone-github-scope/)
 DRONE_GITHUB_GIT_USERNAME | github machine user username |
 DRONE_GITHUB_GIT_PASSWORD | github machine user password |
-DRONE_GITHUB_MERGE_REF | github pull requests use merge ref |
+DRONE_GITHUB_MERGE_REF | github pull requests use merge ref | | https://discourse.drone.io/t/github-claims-that-merge-refs-are-undocumented-feature/1100/2
 DRONE_GITHUB_PRIVATE_MODE | github is running in private mode |
-DRONE_GITHUB_SKIP_VERIFY | github skip ssl verification |
+DRONE_GITHUB_SKIP_VERIFY | github skip ssl verification | [DRONE_GITHUB_SKIP_VERIFY](https://docs.drone.io/reference/server/drone-github-skip-verify/)
 DRONE_GOGS | gogs driver is enabled |
 DRONE_GOGS_URL | gogs server address | [DRONE_GOGS_SERVER](https://docs.drone.io/reference/server/drone-gogs-server/)
 DRONE_GOGS_GIT_USERNAME | gogs service account username |
 DRONE_GOGS_GIT_PASSWORD | gogs service account password |
 DRONE_GOGS_PRIVATE_MODE | gogs private mode enabled |
-DRONE_GOGS_SKIP_VERIFY | gogs skip ssl verification |
+DRONE_GOGS_SKIP_VERIFY | gogs skip ssl verification | [DRONE_GOGS_SKIP_VERIFY](https://docs.drone.io/reference/server/drone-gogs-skip-verify/) |
 DRONE_GITEA | gitea driver is enabled |
 DRONE_GITEA_URL | gitea server address | DRONE_GITEA_SERVER | DRONE_GITEA_CLIENT_ID, DRONE_GITEA_CLIENT_SECRET
 DRONE_GITEA_CONTEXT | gitea status context | 
 DRONE_GITEA_GIT_USERNAME | gitea service account username |
 DRONE_GITEA_GIT_PASSWORD | gitea service account password |
 DRONE_GITEA_PRIVATE_MODE | gitea private mode enabled |
-DRONE_GITEA_SKIP_VERIFY | gitea skip ssl verification | DRONE_GITEA_SKIP_VERIFY
+DRONE_GITEA_SKIP_VERIFY | gitea skip ssl verification | [DRONE_GITEA_SKIP_VERIFY](https://docs.drone.io/reference/server/drone-gitea-skip-verify/)
 DRONE_BITBUCKET | bitbucket driver is enabled |
 DRONE_BITBUCKET_CLIENT | bitbucket oauth2 client id | [DRONE_BITBUCKET_CLIENT_ID](https://docs.drone.io/reference/server/drone-bitbucket-client-id/)
 DRONE_BITBUCKET_SECRET | bitbucket oauth2 client secret | [DRONE_BITBUCKET_CLIENT_SECRET](https://docs.drone.io/reference/server/drone-bitbucket-client-secret/)
