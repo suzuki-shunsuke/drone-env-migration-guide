@@ -71,7 +71,7 @@ DRONE_GOGS_GIT_PASSWORD | gogs service account password |
 DRONE_GOGS_PRIVATE_MODE | gogs private mode enabled |
 DRONE_GOGS_SKIP_VERIFY | gogs skip ssl verification | [DRONE_GOGS_SKIP_VERIFY](https://docs.drone.io/reference/server/drone-gogs-skip-verify/) |
 DRONE_GITEA | gitea driver is enabled |
-DRONE_GITEA_URL | gitea server address | DRONE_GITEA_SERVER | DRONE_GITEA_CLIENT_ID, DRONE_GITEA_CLIENT_SECRET
+DRONE_GITEA_URL | gitea server address | [DRONE_GITEA_SERVER](https://docs.drone.io/reference/server/drone-gitea-server/) | DRONE_GITEA_CLIENT_ID, DRONE_GITEA_CLIENT_SECRET
 DRONE_GITEA_CONTEXT | gitea status context | 
 DRONE_GITEA_GIT_USERNAME | gitea service account username |
 DRONE_GITEA_GIT_PASSWORD | gitea service account password |
